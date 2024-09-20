@@ -1,5 +1,5 @@
 class Artwork {
-    // Fields
+    
     private String title;
     private int year;
     private Artist artist;
