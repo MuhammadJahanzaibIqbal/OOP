@@ -1,10 +1,10 @@
 public class Run {
     public static void main(String[] args) {
         
-        Artist artist1 = new Artist("Leonardo da Vinci");
+        Artist artist1 = new Artist("Pablo Picasso");
 
         
-        Artwork artwork1 = new Artwork("Mona Lisa", 1503, artist1);
+        Artwork artwork1 = new Artwork("Unknown", 1503, artist1);
 
         
         Artwork artwork2 = new Artwork("Unknown Masterpiece", 2023);
@@ -32,7 +32,7 @@ public class Run {
         deepCopyArtwork.displayInformation();
 
         
-        artist1 = new Artist("Leonardo Updated");  
+        artist1 = new Artist("Pablo Updated");  
 
        
         System.out.println("\nAfter modifying artist:");
