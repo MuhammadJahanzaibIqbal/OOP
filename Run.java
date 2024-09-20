@@ -32,7 +32,7 @@ public class Run {
         deepCopyArtwork.displayInformation();
 
         
-        artist1 = new Artist("Leonardo Updated");  // Changing the artist name
+        artist1 = new Artist("Leonardo Updated");  
 
        
         System.out.println("\nAfter modifying artist:");
